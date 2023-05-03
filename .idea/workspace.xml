@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f74cef1-d74b-4a90-819b-0f162119ff4e" name="Changes" comment="" />
+    <list default="true" id="6f74cef1-d74b-4a90-819b-0f162119ff4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/Myrpal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/AndNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/ArrowNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/BopNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/CommaNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/EqualNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/FcnFormNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/GammaNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/IDNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/InfixNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/InnerNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/LambdaNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/LeafNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/LetNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/NodeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/PrimitiveNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/RecNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/Standardizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/TauNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/UopNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/WhereNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/WithinNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/YNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/MachineControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/MachineEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/MachineStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Beta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Bop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Comma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Delta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Eta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Gamma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Primitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Tor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Uop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Y.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +66,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PI3lkOYZLw2ycybo2FBrVecvcY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,6 +96,11 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,8 +112,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683130923775</updated>
-      <workItem from="1683130925126" duration="4000" />
+      <workItem from="1683130925126" duration="1567000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
