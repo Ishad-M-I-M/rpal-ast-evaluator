@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f74cef1-d74b-4a90-819b-0f162119ff4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/csemachine/STEvaluationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/TestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/ast/StandardTreeGenerationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/ast/StandardTreeGenerationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683130923775</updated>
       <workItem from="1683130925126" duration="1685000" />
-      <workItem from="1683154957806" duration="8462000" />
+      <workItem from="1683154957806" duration="8777000" />
     </task>
     <servers />
   </component>
