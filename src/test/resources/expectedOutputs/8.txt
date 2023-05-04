@@ -1,0 +1,1 @@
+Move C to B\nMove A to B\nMove C to B\nMove C to B\nMove C to B\nMove A to B\nMove C to B\nMove A to B\nMove C to B\nMove A to B\nMove C to B\nMove C to B\nMove C to B\nMove A to B\nMove C to B\n

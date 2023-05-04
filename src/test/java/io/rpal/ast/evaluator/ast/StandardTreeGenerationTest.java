@@ -12,8 +12,8 @@ public class StandardTreeGenerationTest {
     public void testStandardTreeGeneration(String filename) throws Exception {
         ASTTree astTree = ASTParser.parse(TestUtils.getASTFile(filename));
         astTree.standardize();
-        String stTree = astTree.traverse();
-        String expected = TestUtils.getSTContent(filename) + "\n";
+        String stTree = astTree.traverse().trim();
+        String expected = TestUtils.getSTContent(filename);
         Assert.assertEquals(stTree, expected);
     }
 

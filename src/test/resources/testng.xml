@@ -23,6 +23,7 @@
     <test name="rpal-ast-evaluator-test-suite" parallel="false">
         <classes>
             <class name="io.rpal.ast.evaluator.ast.StandardTreeGenerationTest"/>
+            <class name="io.rpal.ast.evaluator.csemachine.STEvaluationTest"/>
         </classes>
     </test>
 </suite>

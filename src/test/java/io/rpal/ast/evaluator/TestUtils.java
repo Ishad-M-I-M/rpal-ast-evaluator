@@ -18,10 +18,14 @@ public class TestUtils {
         return readContent(resourceDir.resolve("expectedSTs").resolve(filename+".txt"));
     }
 
+    public static String getOutputContent(String filename) throws IOException {
+        return readContent(resourceDir.resolve("expectedOutputs").resolve(filename+".txt"));
+    }
+
     private static String readContent(Path path) throws IOException {
         Stream<String> lines = Files.lines(path);
         String output = lines.collect(Collectors.joining(System.lineSeparator()));
         lines.close();
-        return output.replaceAll(System.lineSeparator(), "\n");
+        return output.trim().replaceAll(System.lineSeparator(), "\n");
     }
 }
