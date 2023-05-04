@@ -1,0 +1,12 @@
+let
+.=
+..<ID:x>
+..->
+...eq
+....<INT:0>
+....<INT:1>
+...<STR:'True'>
+...<STR:'False'>
+.gamma
+..<ID:Print>
+..<ID:x>

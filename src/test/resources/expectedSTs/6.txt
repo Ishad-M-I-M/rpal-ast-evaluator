@@ -1,0 +1,6 @@
+gamma
+.Print
+.tau
+..abc
+..def
+..1

@@ -1,0 +1,2 @@
+let x = 0 eq 1 -> 'True' | 'False'
+in Print(x)

@@ -1,0 +1,5 @@
+gamma
+.<ID:Print>
+.+
+..<INT:1>
+..<INT:2>

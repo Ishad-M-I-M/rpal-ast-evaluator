@@ -5,53 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f74cef1-d74b-4a90-819b-0f162119ff4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/Myrpal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/AndNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/ArrowNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/BopNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/CommaNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/EqualNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/FcnFormNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/GammaNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/IDNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/InfixNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/InnerNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/LambdaNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/LeafNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/LetNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/NodeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/PrimitiveNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/RecNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/Standardizable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/TauNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/UopNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/WhereNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/WithinNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/nodes/YNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/MachineControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/MachineEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/MachineStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Beta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Bop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Comma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Delta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Eta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Gamma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Primitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Tor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Uop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/csemachine/elements/Y.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/rpal/ast/evaluator/ast/StandardTreeGenerationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/Myrpal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/Myrpal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/rpal/ast/evaluator/ast/ASTTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,17 +59,52 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/CSE - Internship/Project/graphql-tools",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="StandardTreeGenerationTest.testStandardTreeGeneration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;io.rpal.ast.evaluator.ast.StandardTreeGenerationTest.testStandardTreeGeneration&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.StandardTreeGenerationTest.testStandardTreeGeneration" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -112,7 +113,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683130923775</updated>
-      <workItem from="1683130925126" duration="1567000" />
+      <workItem from="1683130925126" duration="1685000" />
+      <workItem from="1683154957806" duration="6625000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,2 @@
+let rec f x = x eq 0 -> 1 | f (x-1)
+in Print ( f 1 )

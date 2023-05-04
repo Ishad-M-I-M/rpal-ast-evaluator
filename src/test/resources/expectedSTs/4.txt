@@ -1,0 +1,12 @@
+gamma
+.lambda
+..x
+..gamma
+...Print
+...x
+.->
+..eq
+...0
+...1
+..True
+..False

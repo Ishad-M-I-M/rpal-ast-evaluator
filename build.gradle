@@ -1,19 +1,52 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
-
-group = 'org.example'
-version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.9.1')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation "org.testng:testng:${testngVersion}"
 }
 
 test {
-    useJUnitPlatform()
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
+    finalizedBy jacocoTestReport
 }
+
+jacoco {
+    toolVersion = jacocoVersion
+    reportsDirectory = file("$rootProject.projectDir/build/reports/jacoco")
+}
+
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+    reports {
+        xml.required = true
+    }
+}
+
+task codeCoverageReport(type: JacocoReport) {
+    dependsOn test
+
+    executionData fileTree(project.rootDir.absolutePath).include("**/build/coverage-reports/*.exec")
+    reports {
+        xml.required = true
+        html.required = true
+        csv.required = true
+        xml.destination(new File("${buildDir}/reports/jacoco/report.xml"))
+        html.destination(new File("${buildDir}/reports/jacoco/report.html"))
+        csv.destination(new File("${buildDir}/reports/jacoco/report.csv"))
+    }
+
+    onlyIf = {
+        true
+    }
+}
+
+jacocoTestReport.dependsOn test
+build.dependsOn jacocoTestReport

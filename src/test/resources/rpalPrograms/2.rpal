@@ -1,0 +1,2 @@
+let f x y z = x + y + z in
+Print(f 1 2 3)

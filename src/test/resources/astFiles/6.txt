@@ -1,0 +1,6 @@
+gamma
+.<ID:Print>
+.tau
+..<STR:'abc'>
+..<STR:'def'>
+..<INT:1>

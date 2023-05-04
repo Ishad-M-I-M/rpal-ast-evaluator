@@ -6,19 +6,34 @@ import io.rpal.ast.evaluator.ast.nodes.NodeFactory;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class ASTParser {
-    public static ASTTree parse(String filename) throws FileNotFoundException, IllegalArgumentException {
-        File astFile = new File(filename);
-        Scanner astScan = new Scanner(astFile);
 
-        Node parentNode = NodeFactory.createNode(astScan.nextLine().trim());
+    public static ASTTree parse(File astFile) throws FileNotFoundException, IllegalArgumentException {
+        Scanner astScan = new Scanner(astFile);
+        Iterator<String> lines = new Iterator<>() {
+            @Override
+            public boolean hasNext() {
+                return astScan.hasNextLine();
+            }
+
+            @Override
+            public String next() {
+                return astScan.nextLine();
+            }
+        };
+        return parseTree(lines);
+    }
+
+    private static ASTTree parseTree(Iterator<String> lines){
+        Node parentNode = NodeFactory.createNode(lines.next().trim());
         int parentLevel = 0;  // to keep track of the level
         ASTTree astTree = new ASTTree(parentNode);
 
-        while (astScan.hasNextLine()) {
-            String entry = astScan.nextLine().trim();
+        while (lines.hasNext()) {
+            String entry = lines.next().trim();
             String type = entry.replace(".", "");
             String dots = entry.replace(type, "");
 

@@ -18,28 +18,30 @@ public class ASTTree {
     /**
      * Print the tree by inorder traversing
      */
-    public void traverse() {
+    public String traverse() {
         if (root instanceof LeafNode) {
-            System.out.println(root.name);
+            return root.name +"\n";
         } else {
-            System.out.println(root.name);
+            StringBuilder result = new StringBuilder(root.name + "\n");
             for (Node child :
                     ((InnerNode) root).getChildren()) {
-                traverse(child, ".");
+                result.append(traverse(child, "."));
             }
+            return result.toString();
         }
 
     }
 
-    private void traverse(Node root, String prefix) {
+    private String traverse(Node root, String prefix) {
         if (root instanceof LeafNode) {
-            System.out.println(prefix + root.name);
+            return prefix + root.name + "\n";
         } else {
-            System.out.println(prefix + root.name);
+            StringBuilder result = new StringBuilder(prefix + root.name + "\n");
             for (Node child :
                     ((InnerNode) root).getChildren()) {
-                traverse(child, prefix + ".");
+                result.append(traverse(child, prefix + "."));
             }
+            return result.toString();
         }
     }
 

@@ -1,0 +1,23 @@
+let substring s n m =
+	Isstring s ->
+	(
+		(n > 0 & n <= m & m <=  (len s 
+						where
+							rec len s = 
+								s eq '' -> 0
+									| 1 + len (Stern s)
+					)
+		) ->
+			(
+			get s n m 1 ''
+				where
+				rec get s n m i T = 
+				m < i -> T
+					| 
+					n <= i -> get (Stern s) n m (i+1) (Conc T (Stem s))
+						| get (Stern s) n m (i+1) T
+			)
+		| 'n m outof range'
+	)
+	| 'Not a string' 
+in Print(substring 'Welcome' 5 7)

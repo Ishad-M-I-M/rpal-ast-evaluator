@@ -4,12 +4,14 @@ import io.rpal.ast.evaluator.ast.ASTParser;
 import io.rpal.ast.evaluator.ast.ASTTree;
 import io.rpal.ast.evaluator.csemachine.Machine;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 
 public class Myrpal {
     public static void main(String[] args) {
         try {
-            ASTTree astTree = ASTParser.parse(args[0]);
+            File astFile = new File(args[0]);
+            ASTTree astTree = ASTParser.parse(astFile);
 //            astTree.traverse();
             astTree.standardize();
 //            System.out.println("\nStandardized Tree\n");
