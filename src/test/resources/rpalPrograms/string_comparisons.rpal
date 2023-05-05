@@ -1,0 +1,1 @@
+let x = ('a' ls 'b', 'b' le 'c', 'd' gr 'e', 'f' ge 'g') in Print(x)

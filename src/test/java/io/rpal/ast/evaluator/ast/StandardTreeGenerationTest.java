@@ -20,6 +20,6 @@ public class StandardTreeGenerationTest {
     @DataProvider(name = "standardTreeGenerationTestDataProvider")
     public Object[] dataProvider() {
         return new Object[]{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "9-simplified", "10", "11", "12", "13",
-                "14", "neg", "bops"};
+                "14", "neg", "bops", "string_comparisons"};
     }
 }
