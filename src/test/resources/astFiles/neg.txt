@@ -4,5 +4,9 @@ let
 ..<INT:2>
 .gamma
 ..<ID:Print>
-..neg
-...<ID:x>
+..tau
+...neg
+....<ID:x>
+...neg
+....neg
+.....<ID:x>

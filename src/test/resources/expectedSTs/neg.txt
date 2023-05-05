@@ -3,6 +3,10 @@ gamma
 ..x
 ..gamma
 ...Print
-...neg
-....x
+...tau
+....neg
+.....x
+....neg
+.....neg
+......x
 .2

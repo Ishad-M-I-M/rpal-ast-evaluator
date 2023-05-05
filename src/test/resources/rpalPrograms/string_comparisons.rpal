@@ -1,1 +1,1 @@
-let x = ('a' ls 'b', 'b' le 'c', 'd' gr 'e', 'f' ge 'g') in Print(x)
+let x = ('a' ls 'b', 'b' ls 'a', 'b' le 'c', 'c' le 'b', 'd' gr 'e', 'e' gr 'd', 'f' ge 'g', 'g' ge 'f') in Print(x)

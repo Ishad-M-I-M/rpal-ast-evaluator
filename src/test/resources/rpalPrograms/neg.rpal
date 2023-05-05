@@ -1,1 +1,1 @@
-let x=2 in Print (-x)
+let x=2 in Print ((-x), -(-x))
