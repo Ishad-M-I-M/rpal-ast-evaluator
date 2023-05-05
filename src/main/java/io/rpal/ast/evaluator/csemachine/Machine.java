@@ -196,9 +196,6 @@ public class Machine {
                 }
                 stack.push(element, environment);
             }
-            else throw new IllegalArgumentException("Unsupported element " + element.toString());
-
-
         }
 
     }

@@ -1,0 +1,1 @@
+let x = 2**4/16 ne 1 -> 'Error' | 4 ge 5 -> 'Error' | 'Correct' in Print(x)

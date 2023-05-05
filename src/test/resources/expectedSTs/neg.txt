@@ -1,0 +1,8 @@
+gamma
+.lambda
+..x
+..gamma
+...Print
+...neg
+....x
+.2

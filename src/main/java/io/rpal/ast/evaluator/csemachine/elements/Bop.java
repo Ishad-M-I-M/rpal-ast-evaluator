@@ -18,7 +18,7 @@ public class Bop extends Element {
                 case "-" -> op1 - op2;
                 case "*" -> op1 * op2;
                 case "/" -> op1 / op2;
-                case "**" -> Math.pow(op1, op2);
+                case "**" -> (int)Math.pow(op1, op2);
 
                 // Boolean operations
                 case "eq" -> op1 == op2;
