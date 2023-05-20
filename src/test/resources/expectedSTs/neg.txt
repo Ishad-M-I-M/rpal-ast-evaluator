@@ -1,0 +1,12 @@
+gamma
+.lambda
+..x
+..gamma
+...Print
+...tau
+....neg
+.....x
+....neg
+.....neg
+......x
+.2
