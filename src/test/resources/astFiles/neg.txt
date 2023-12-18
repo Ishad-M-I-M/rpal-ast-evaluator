@@ -1,0 +1,12 @@
+let
+.=
+..<ID:x>
+..<INT:2>
+.gamma
+..<ID:Print>
+..tau
+...neg
+....<ID:x>
+...neg
+....neg
+.....<ID:x>

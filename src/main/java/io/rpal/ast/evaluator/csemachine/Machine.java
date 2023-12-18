@@ -196,8 +196,6 @@ public class Machine {
                 }
                 stack.push(element, environment);
             }
-
-
         }
 
     }
